@@ -1,0 +1,14 @@
+.about_me{
+    border-radius: 20px;
+    background-color: #9dbf9e;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+    width: 50%;
+}
+
+#name{
+    font-size: 35px;
+}

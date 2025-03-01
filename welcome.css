@@ -1,0 +1,78 @@
+#gallery{
+    border-radius: 25px;
+    background-color: #9dbf9e;
+    width: 340px;
+    height: 540px;
+    padding: 30px;
+    color: white;
+    font-size: 20px; 
+    animation-name: gallery;
+    animation-duration: 1.2s;
+
+}
+
+@keyframes gallery {
+    from {width: 100px;}
+    to {width: 340px;}
+  }
+
+
+#gallery_card{   
+    padding-top: 35px;
+    margin: auto;
+    width: 70%;
+
+}
+
+
+
+#about_me{
+    writing-mode: vertical-rl;
+    border-radius: 25px;
+    background-color: #728f73;
+    width: 100px;
+    height: 600px;
+    transition: 0.803s ease-in-out;
+    
+}
+
+
+#about_me:hover{
+    width: 400px;
+    #about_me_img{
+        display: flex;    
+    }
+    
+}
+
+#about_me_card{
+    padding: 30px;
+    color: white;
+    font-size: 20px;  
+}
+
+
+#table_welcome{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 240px;
+    height: 400px;
+    animation-name: img;
+    animation-duration: 1.2s;
+}
+
+@keyframes img {
+    from {width: 0px; height: 400px;}
+    to {width: 240px; height: 400px;}
+  }
+
+#about_me_img{
+    display: none;
+    padding-top: 100px;
+
+}
+

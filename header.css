@@ -1,0 +1,32 @@
+body {
+    background-color: #d0d6b5;
+  }
+
+  h1 {
+    padding-left: 30px;
+    color: #9b6343;
+    font-size: 50px;
+  }
+
+  p {
+    color: #9b6343;
+  }
+  
+
+  a{
+    text-decoration: none;
+    background-color: transparent;
+
+  }
+  header{
+    padding: 30px;
+    text-align:center;
+    background: #9b6343;
+    font-size: 20px;   
+  } 
+
+
+  .headerdiv{
+    width: 150px;
+    color: white;
+  }

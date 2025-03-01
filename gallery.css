@@ -1,0 +1,68 @@
+
+
+.brdiv{
+  background-color: #d0d6b5;
+  height: 1px;
+}
+.profile{
+  width: fit-content;
+  transition: 1s;
+}
+
+.profile:hover{
+  width: fit-content;
+  height: 400px;
+  
+}
+
+  #div0{
+    margin-left: 87.5%;
+  }
+
+  #div0{
+    
+    margin-left: 75%;
+  }
+
+  #div1{
+    margin-left: 62.5%;
+  }
+
+  #div2{
+    margin-left: 50%;
+  }
+
+  #div3{
+    margin-left: 37.5%;
+  }
+
+  #div4{
+    margin-left: 25%;
+  }
+
+  #div5{
+    margin-left: 12.5%;
+  }
+
+  #div6{
+    margin-left: 0%;
+  }
+
+  img {
+    border-radius: 25px;
+    width:100px;
+    height:100px
+  }
+.stairs{
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: #9dbf9e;
+  position: relative;
+  animation-name: stairs;
+  animation-duration: 1.2s;
+  animation-direction:reverse;
+}
+@keyframes stairs {
+  0%   {left:0px; top:0px;}
+  100% {left:100%; top:0px;}
+}
